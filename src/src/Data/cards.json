@@ -1,0 +1,202 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "title": "CSS: margin",
+      "val": "Свойство CSS, Внешний отступ от элемента.",
+      "prop": ["margin-top: ", "margin-right: ", "margin-bottom: ", "margin-left: "]
+    },
+    {
+      "id": 2,
+      "title": "CSS: padding",
+      "val": "Свойство CSS, Отступ от контента до крайней граници элемента.",
+      "prop": ["padding-top: ", "padding-right: ", "padding-bottom: ", "padding-left: "]
+    },
+    {
+      "id": 3,
+      "title": "CSS: cursor",
+      "val": "Свойство CSS, Вид курсора при наведении на объект.",
+      "prop": ["cursor: pointer; ", "cursor: auto; ", "cursor: none; ", "cursor: wait; ",
+               "cursor: no-drop; ", "cursor: w-resize; ", "cursor: help; ", "..."]
+    },
+    {
+      "id": 4,
+      "title": "CSS: height",
+      "val": "Свойство CSS, Высота элемента.",
+      "prop": ["height: 100px; ", "height: 100%; ", "height: auto; ", "height: initial; "]
+    },
+    {
+      "id": 5,
+      "title": "CSS: width",
+      "val": "Свойство CSS, Ширина элемента.",
+      "prop": ["width: 100px; ", "width: 100%; ", "width: auto; ", "width: initial; "]
+    },
+    {
+      "id": 6,
+      "title": "CSS: perspective",
+      "val": "Свойство CSS, Уход элемента в перспективу(чем больше значение, тем мение активный уход).",
+      "prop": ["perspective: 800px; ", "perspective: none; "]
+    },
+    {
+      "id": 7,
+      "title": "CSS: position",
+      "val": "Свойство CSS, Позиция элемента.",
+      "prop": ["position: static; ", "position: absolute; ", "position: fixed; ", "position: relative; ",
+              "position: initial; "]
+    },
+    {
+      "id": 8,
+      "title": "CSS: position: static",
+      "val": "Свойство CSS, Позиция элемента static.",
+      "prop": "Элементы отображаются как обычно. Использование свойств left, top, right и bottom не приводит к каким-либо результатам."
+    },
+    {
+      "id": 9,
+      "title": "CSS: position: absolute",
+      "val": "Свойство CSS, Позиция элемента absolute.",
+      "prop": "Указывает, что элемент абсолютно позиционирован, при этом другие элементы отображаются на веб-странице словно абсолютно позиционированного элемента и нет."
+    },
+    {
+      "id": 10,
+      "title": "CSS: position: fixed",
+      "val": "Свойство CSS, Позиция элемента fixed.",
+      "prop": "По своему действию это значение близко к absolute, но в отличие от него привязывается к указанной свойствами left, top, right и bottom точке на экране и не меняет своего положения при прокрутке веб-страницы."
+    },
+    {
+      "id": 11,
+      "title": "CSS: position: relative",
+      "val": "Свойство CSS, Позиция элемента relative.",
+      "prop": "Положение элемента устанавливается относительно его исходного места. Добавление свойств left, top, right и bottom изменяет позицию элемента и сдвигает его в ту или иную сторону от первоначального расположения."
+    },
+    {
+      "id": 12,
+      "title": "CSS: position: sticky",
+      "val": "Свойство CSS, Позиция элемента sticky.",
+      "prop": "Положение элемента устанавливается относительно его исходного места. Добавление свойств left, top, right и bottom изменяет позицию элемента и сдвигает его в ту или иную сторону от первоначального расположения и элемент 'прилипает' к координатам при скроллинге."
+    },
+    {
+      "id": 13,
+      "title": "CSS: transition",
+      "val": "Свойство CSS, Устанавливает эффект перехода между двумя состояниями элемента, они могут быть определены с помощью псевдокласса :hover, :focus, :target или :active, а также динамически через JavaScript",
+      "prop": ["transition-property: ", "transition-duration: ", "transition-timing-function: ", "transition-delay: "]
+    },
+    {
+      "id": 14,
+      "title": "CSS: transition: ease",
+      "val": "Свойство CSS, Устанавливает эффект перехода между двумя состояниями элемента, ease — анимация начинается медленно, затем ускоряется и к концу движения опять замедляется.",
+      "prop": "transition: left 1s ease;"
+    },
+    {
+      "id": 15,
+      "title": "CSS: transition: ease-in",
+      "val": "Свойство CSS, Устанавливает эффект перехода между двумя состояниями элемента, ease-in — анимация медленно начинается, к концу ускоряется.",
+      "prop": "transition: all 0.4s ease-in;"
+    },
+    {
+      "id": 16,
+      "title": "CSS: transition: ease-out",
+      "val": "Свойство CSS, Устанавливает эффект перехода между двумя состояниями элемента, ease-out — анимация начинается быстро, к концу замедляется.",
+      "prop": "transition: all 1s ease-out 0.5s;"
+    },
+    {
+      "id": 17,
+      "title": "CSS: transition: ease-in-out",
+      "val": "Свойство CSS, Устанавливает эффект перехода между двумя состояниями элемента, ease-in-out — анимация начинается и заканчивается медленно.",
+      "prop": "transition: all 0.5s ease-in-out;"
+    },
+    {
+      "id": 18,
+      "title": "CSS: transition: linear",
+      "val": "Свойство CSS, Устанавливает эффект перехода между двумя состояниями элемента, linear — одинаковая скорость от начала и до конца.",
+      "prop": "transition: transform, border 1s linear;"
+    },
+    {
+      "id": 19,
+      "title": "CSS: border",
+      "val": "Свойство CSS, Рамка элемента.",
+      "prop": ["border-width: ", "border-style: ", "border-color: "]
+    },
+    {
+      "id": 20,
+      "title": "CSS: transform",
+      "val": "Свойство CSS, рансформирует элемент, в частности, позволяет его масштабировать, вращать, сдвигать, наклонять, а также комбинировать виды трансформаций, перечисляя функции трансформации через пробел.",
+      "prop": ["transform: rotate/3d/X/Y/Z; ", "transform: scale/3d/X/Y/Z; ", "transform: translate/3d/X/Y/Z; ",
+              "transform: perspective; ", "transform: skewX/Y; ", "transform: matrix/3d; "]
+    },
+    {
+      "id": 21,
+      "title": "CSS: transform-style",
+      "val": "Свойство CSS, Определяет, как дочерние элементы будут отображаться в 3D-пространстве. Это свойство должно использоваться совместно с transform.",
+      "prop": ["transform-style: flat; ", "transform-style: preserve-3d; "]
+    },
+    {
+      "id": 22,
+      "title": "CSS: backface-visibility",
+      "val": "Свойство CSS, Определяет, показывать обратную сторону элемента или нет. Как правило, обратная сторона становится видна при трансформации элемента, например, при его вращении относительно горизонтальной или вертикальной оси в трёхмерном пространстве.",
+      "prop": ["backface-visibility: visible; ", "backface-visibility: hidden; "]
+    },
+    {
+      "id": 23,
+      "title": "CSS: overflow",
+      "val": "Свойство CSS, Свойство управляет отображением содержания блочного элемента, если оно целиком не помещается и выходит за область заданных размеров.",
+      "prop": ["overflow: visible; ", "overflow: hidden; ","overflow: scroll; ", "overflow: auto; "]
+    },
+    {
+      "id": 24,
+      "title": "CSS: text-align",
+      "val": "Свойство CSS, Определяет горизонтальное выравнивание текста в пределах элемента.",
+      "prop": ["text-align: left; ", "text-align: right; ","text-align: center; ", "text-align: justify; ",
+              "text-align: start; ", "text-align: end; "]
+    },
+    {
+      "id": 25,
+      "title": "CSS: text-align: justify",
+      "val": "Свойство CSS, Выравнивание по ширине, что означает одновременное выравнивание по левому и правому краям. Чтобы произвести это действие, браузер в этом случае добавляет пробелы между словами.",
+      "prop": "text-align: justify;"
+    },
+    {
+      "id": 26,
+      "title": "CSS: background-color",
+      "val": "Свойство CSS, Определяет цвет фона элемента.",
+      "prop": ["background-color: #3366CC;", "background-color: blue; ", "background-color: rgba(249, 201, 16, 1); "]
+    },
+    {
+      "id": 27,
+      "title": "CSS: color",
+      "val": "Свойство CSS, Определяет цвет текста элемента.",
+      "prop": "color: #333;"
+    },
+    {
+      "id": 28,
+      "title": "CSS: font-size",
+      "val": "Свойство CSS, Определяет размер шрифта элемента.",
+      "prop": ["font-size: 16px; ", "font-size: 2.3em; "]
+    },
+    {
+      "id": 29,
+      "title": "CSS: display",
+      "val": "Свойство CSS, Многоцелевое свойство, которое определяет, как элемент должен быть показан в документе.",
+      "prop": ["display: block; ", "display: none; ", "display: flex; ", "display: inline; ",
+              "display: run-in; ", "display: table; ", "display: inline-flex; ", "..."]
+    },
+    {
+      "id": 30,
+      "title": "CSS: text-decoration",
+      "val": "Свойство CSS, Добавляет оформление текста в виде его подчёркивания, перечёркивания или линии над текстом. Одновременно можно применить более одного стиля, перечисляя значения через пробел.",
+      "prop": ["text-decoration: none; ", "text-decoration: line-through; ",
+               "text-decoration: overline; ", "text-decoration: underline; "]
+    },
+    {
+      "id": 31,
+      "title": "CSS: box-shadow",
+      "val": "Свойство CSS, Добавляет тень к элементу. Нужно задать 'сдвиг по x', 'сдвиг по y', опционно: 'размытие', 'растяжение', 'цвет'",
+      "prop": ["box-shadow: 0 6 #444; ", "box-shadow: -5 6 10px rgba(0,0,0,0.5); "]
+    },
+    {
+      "id": 32,
+      "title": "CSS: background",
+      "val": "Свойство CSS, Универсальное свойство background позволяет установить одновременно несколько характеристик фона. ",
+      "prop": ["background-image: ", "background-color: ", "background-repeat: "]
+    }
+  ]
+}
