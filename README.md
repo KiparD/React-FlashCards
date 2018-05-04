@@ -2,6 +2,8 @@
 
 This simple react application is used for basic flashcard memorization.
 
+![skreenshot](https://github.com/KiparD/React-FlashCards/blob/master/preview.jpg)
+
 ## Getting started
 
 Demo JSON available in `src/Data/cards.json`. This app requires a Firebase database containing structured data for any card you would like to study. The format the application expects out of the box is, as an example:
@@ -39,5 +41,7 @@ export const DB_CONFIG = {
     ...etc.
 }
 ```
+![skreenshot](https://github.com/KiparD/React-FlashCards/blob/master/preview-back.jpg)
+
 ## Author
-This project was created by video Wes Doyle to learn React 
+This project was created by video Wes Doyle to learn React. 
