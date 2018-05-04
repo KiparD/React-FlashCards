@@ -2,7 +2,7 @@
 
 This simple react application is used for basic flashcard memorization.
 
-![skreenshot](https://github.com/KiparD/React-FlashCards/blob/master/preview.jpg)
+![skreenshot](https://github.com/KiparD/React-FlashCards/blob/master/src/img/preview.jpg)
 
 ## Getting started
 
@@ -41,7 +41,7 @@ export const DB_CONFIG = {
     ...etc.
 }
 ```
-![skreenshot](https://github.com/KiparD/React-FlashCards/blob/master/preview-back.jpg)
+![skreenshot](https://github.com/KiparD/React-FlashCards/blob/master/src/img/preview-back.jpg)
 
 ## Author
 This project was created by video Wes Doyle to learn React. 
